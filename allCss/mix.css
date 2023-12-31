@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url('../img/background-image.jpeg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    
+}
