@@ -1,5 +1,5 @@
 let timerInterval;
-let seconds = 10;
+let seconds = 30;
 var currentQuestionIndex = 0;
 var userResponses = [];
 var totalPrize = 0;
@@ -28,7 +28,7 @@ function updateDisplay() {
 }
 
 function pad(value) {
-    return value < 10 ? '0' + value : value;
+    return value < 30 ? '0' + value : value;
 }
 
 var questions = [
